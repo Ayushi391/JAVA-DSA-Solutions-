@@ -4,7 +4,7 @@ My personal repository for tracking my Data Structures & Algorithms (DSA) journe
 #Topics Covered & Progress
 -Arrays:Two Sum
 
-# 🛠️ Tools Used
+#Tools Used
 -Language: Java (JDK 17+)
 -Platform: LeetCode
 -Editor: VS Code
