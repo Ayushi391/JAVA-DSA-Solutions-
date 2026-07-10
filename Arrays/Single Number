@@ -1,0 +1,15 @@
+//Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
+class Solution{
+  public int singleOne(int[] nums){
+    int ans=0;
+    for(int num: nums){
+      ans^=num;      // ^ =XOR
+    }
+    return ans;
+  }
+
+  public void main(String[] args){
+    int[] nums= {2,2,1};
+    System.out.println(singleOne(nums));
+  }
+}
